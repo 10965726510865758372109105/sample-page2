@@ -1,0 +1,602 @@
+body{
+margin-top: 0px;
+}
+.background{
+    width: 100%;
+    height: 1024px;
+    display: flex;
+}
+.first_half{
+    width: 674px;
+    height: 1024px;
+    background-color: #F7FAFC;
+}
+.main_box{
+    width: 582px;
+    height: 891px;
+    margin-top: 50px;
+    margin-left: 52px;
+}
+.second_half{
+    background-image: url("Rectangle 1.svg");
+    width: 766px;
+    height: 1024px;
+}
+.square{
+    width: 63%;
+    height: 792.79px;
+    float: right;
+    background-image:url("Ellipse 1.svg") ;
+    background-repeat: no-repeat;
+}
+.support_text{
+    color:white;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 95px;
+}
+.first_row_logo{
+    width: 30.03px;
+    height: 29.6px;
+    margin-top: 5.39px;
+    background-image: url("Vector.svg");
+    position: fixed;
+    color:#1C4532 ;
+    
+}
+.first_row_text{
+    width: 111.82px;
+    height: 32.87px;
+    font-family: "poppins", sans-serif;
+    font-size: 47px;
+    font-weight: 600;
+    color: #1C4532;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 31px;
+}
+.second_first_row{
+    width: 159px;
+    height: 48px;
+    margin-top: 65px;
+    margin-left: 54px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    color: #171923;
+}
+.text_transform1{
+    text-decoration: underline;
+     color:#1C4532;
+}
+.second_second_row{
+    width: 303px;
+    height: 27px;
+    margin-left: 54px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #718096;
+    margin-top: 34px;
+    line-height: 150%;
+}
+.third_row{
+    width:529px;
+    height:368px;
+    margin-top: 40px;
+    margin-left: 54px;
+    gap:36px;
+}
+#style_email{
+    width:528px;
+    height: 20px;
+    color: #718096;
+    margin-top: 14px;
+}
+#email,.password_container{
+    width:528px;
+    height: 55px;
+    font-weight: 400;
+    border:1px solid #CBD5E0;
+    border-radius: 12px;
+    padding-left: 12px;
+    margin-top: 14px;
+    background-color: #F7FAFC;
+}
+#password{
+    width:408px;
+    height: 40px;
+    font-weight: 400;
+    border: none;
+    padding-top: 11px;
+    background-color: #F7FAFC;
+}
+#style_password{
+    width:405px;
+    height:20px;
+    margin-top: 26px;
+    color: #718096;
+}
+#style_email,#style_password{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}.line{
+    width: 1px;
+    height: 40px;
+    background-color: #CBD5E0;
+    float: right;
+    margin-top: 7px;
+    margin-left: 60px;
+}
+.password_container{
+    display: flex;
+}
+#eye{
+    width: 24px;
+    height: 24px;
+    background-image: url("AiFillEye.svg");
+    background-repeat:no-repeat;
+    margin-right: 16px;
+    margin-left: 14px;
+    margin-top: 15px;
+}
+.remember_box
+{
+    width:529px;
+    height: 24px;
+    margin-top: 10px;
+}
+.tick_box{
+    height: 16px;
+    width:16px ;
+    border: 1px solid #CFD9E0;
+    border-radius: 4px;
+    margin-top: 2px;
+}
+.remember_text{
+    width: 120px;
+    height: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 20px;
+    color: #718096;
+}
+.forget_text{
+    width:138px;
+    height: 24px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1C4532;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    float: right;
+}
+.sign_in_box{
+    width:528px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #1C4532;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    margin-top: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fourth_row{
+    width:529px;
+    height:368px;
+    margin-top: 50px;
+}
+.or_option{
+    height:20px;
+    gap:10px;
+    display: flex;
+}
+.line1,.line2{
+    width: 240px;
+    height: 1.5px;
+    border: 1px;
+    background-color: #A0AEC0;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+}
+.line1{
+    margin-left: 54px;
+}
+.line2{
+    float: right;
+}
+.login_option{
+    width:17px;
+    height: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    color: #718096;
+}
+.fourth_second_row{
+    color: #1C4532;
+}
+.google_box,.fb_box{
+    width: 528px;
+    height: 60px;
+    border:1px solid #CBD5E0;
+    border-radius: 30px;
+    margin-top: 46px;
+    margin-left: 54px;
+}
+.google_logo,.fb_logo{
+    width: 26.35px;
+    height: 25px;
+    background-repeat: no-repeat;
+    margin-top: 17px;
+    margin-left: 26.5px;
+}
+.google_logo{
+    background-image: url("flat-color-icons_google.png");
+}
+.fb_logo{
+    background-image: url("facebook.png");
+}
+.fourth_second_row{
+    width:186px;
+    height: 28px;
+}
+.facebook{
+    width:210px;
+    height:28px;
+}
+.facebook,.fourth_second_row{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 171px;
+    margin-top: 16px;
+    margin-left: 55px;
+    color: #67728A;
+}
+.financial_goal{
+    width:525px;
+    height: 324px;
+    background-color: #F7FAFC;
+    border-radius: 10px;
+    margin-top: 240px;
+    margin-left: 142px;
+}
+.financial_first_text{
+    width: 255px;
+    height: 82px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #1C4532;
+    margin-top: 45px;
+    margin-left: 44px;
+    line-height: 37px;
+}
+.financial_second_text{
+    width: 255px;
+    height: 103px;
+    margin-top: 17px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #718096;
+    margin-left: 44px;
+}
+.financial_third_text{
+    width: 168px;
+    height: 46px;
+    background-color: #1C4532;
+    border-radius: 70px;
+    color: #F7FAFC;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 44px;
+    margin-top: 8px;
+    padding-top: 11px;
+    padding-left: 47px;
+}
+.earnings_box{
+    width: 287px;
+    height: 94px;
+    background-color: #F7FAFC;
+    margin-left: 380px;
+    top:530px;
+    border-radius: 10px;
+    margin-top: -45px;
+}
+.earnings_text{
+    width: 111px;
+    height: 22.58px;
+    padding-top: 20px;
+    color: #1C4532;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.card_image{
+    background-image: url("Illustration.png");
+    width: 224px;
+    height: 334px;
+}
+.amount{
+    width: 144px;
+    height: 31px;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #1C4532;
+    line-height: 32px;
+    margin-top: 20px;
+}
+.graph{
+    width:19.16px;
+    height: 19.16px;
+    background-image: url("graph.svg");
+    margin-left: 39px;
+    margin-top: 37px;
+}
+.features{
+    width: 502px;
+    height: 44px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #F7FAFC;
+    margin-left: 164px;
+    margin-top: 75px;
+}
+.paragraph{
+    width: 498px;
+    height: 84px;
+    margin-left: 154px;
+    margin-top: 36px;
+    color: #CFD9E0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.final_row{
+    width: 106px;
+    height: 31.04px;
+    margin-top: 86.16px;
+    margin-left: 364px;
+    background-image: url("skip.svg");
+}
+@media (max-width:1200px){
+    .first_half{
+        width: 100%;
+        height: 1194px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .second_half{
+        display: none;
+    }
+    .main_box{
+        margin-left: 20px;
+    }
+}
+@media (max-width:1000px){
+    .first_row_text{
+        font-size: 50px;
+    }
+    .#style_email,#style_password{
+        font-size: 18px;
+        margin-top: 43px;
+    }
+    #mail,#password{
+        font-size: 18px;
+    }
+    .remember_text,.forget_text{
+        font-size: 18px;
+    }
+    .sign_in_box{
+        font-size: 23px;
+    }
+    .login_option{
+        font-size: 22px;
+    }
+    .fourth_second_row,.facebook{
+        font-size: 20px;
+    }
+}
+@media (max-width: 860px) {
+    .first_half{
+        width:100%;
+        height:1194px;
+    }
+    .first_row_logo{
+        width: 35px;
+        height: 34px;
+        background-repeat: no-repeat;
+        margin-top: 10px;
+    }
+    .second_half{
+    display: none !important;
+    }
+    .main_box{
+        width:688px;
+        height: 1023px;
+    }
+    .first_row_text{
+        width: 132px;
+        height: 44px;
+    }
+    .second_row{
+        width:358px;
+        height: 125px;
+    }
+    .second_first_row{
+        width: 187px;
+        height: 55px;
+    }
+    .second_second_row{
+        width: 358px;
+        height: 31px;
+        margin-top: 39px;
+    }
+    .third_row{
+        width: 625.35px;
+        height: 422.52px;
+    }
+    .remember_box{
+        width: 625px;
+        height: 27px;
+    }
+    .tick_box{
+        margin-top: 13px;
+    }
+    .forget_text{
+        margin-top: 11px;
+        float: right;
+    }
+    .sign_in_box{
+        width: 624.16px;
+        height: 68.89px;
+        margin-top: 50px;
+    }
+    .fourth_row{
+        margin-top: 57px;
+    }
+    .or_option{
+        width: 624.16px;
+        height: 22.96px;
+    }
+    .line1,.line2{
+        width: 283px;
+    }
+    .login_option{
+        width: 20px;
+        height: 22px;
+    }
+    .google_box,.fb_box{
+        width:624.16px;
+        height: 68.89px;
+    }
+    .google_logo,.fb_logo{
+        width:31px;
+        height: 28px;
+    }
+}
+@media (max-width:600px)
+    .first_half{
+        width: 100%;
+        height: 100%;
+    }
+    .first_row_logo{
+        width: 24.73px;
+        height: 24.46px;
+        background-repeat: no-repeat;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+    .first_row_text{
+        width: 93px;
+        height: 27px;
+        margin-top: 29px;
+        margin-left: 125.53px;
+        font-size: 36px;
+    }
+    .second_row{
+        width:120px;
+        height:36px;
+    }
+    .second_first_row{
+        width: 120px;
+        height: 36px;
+        margin-left: 100px;
+        font-size: 36px;
+        margin-top: 50px;
+    }
+    .text_transform{
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .second_second_row{
+        display: none;
+    }
+    .third_row{
+        width:340px;
+        height: 357px;
+        margin-left: 100px;
+    }
+    #email,.password_container{
+        width:340px;
+        height: 45px;
+    }
+    .password_container{
+        margin-top:30px;
+    }
+    #style_email,#style_password{
+        margin-left: 5px;
+    }
+    #email{
+        margin-top: 30px;
+    }
+    .eye,.line{
+        display: none;
+    }
+    .forget_text{
+        width:121px;
+        height: 21px;
+        font-size: 14px;
+        float:left;
+        font-size: 14px;
+    }
+    .remember_text{
+        font-size: 14px;
+    }
+    .sign_in_box{
+        width:338px;
+        height: 52px;
+    }
+    .or_option{
+        width:338px;
+        height: 32px;
+        margin-top: 42px;
+        margin-left: 70px;
+    }
+    .line1,.line2{
+        width:142px;
+    }
+    .google_box,.fb_box{
+        width:339px;
+        height: 49px;
+        font-size: 14px;
+        margin-left: 100px;
+    }
+    .google_logo_box,.fb_logo_box{
+        width:21px;
+        height: 21px;
+    }
+    .fourth_second_row,.facebook{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    /* .second_second_row{
+        width:236px;
+        height: 21px;
+        flex-grow: 1;
+        margin-left: 77px;
+        margin-top: 791px;
+        justify-content: flex-end;
+    } */
+}
+
+
